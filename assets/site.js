@@ -7,13 +7,21 @@
     return `<a class="${cls}" href="${safe(url)}" target="_blank" rel="noopener noreferrer">${safe(label)} ↗</a>`;
   };
   const empty = (message) => `<p class="empty-state">${message}</p>`;
-  const renderEntries = (items) => {
+  const renderEntries = (items, note = "") => {
     if (!items?.length) return empty("More information will be added soon.");
-    return items.map(item => {
-      const meta = [item.date || item.year || item.period, item.venue || item.event || item.institution || item.role, item.place].filter(Boolean).join(" · ");
+    const intro = note ? `<p class="small muted">${safe(note)}</p>` : "";
+    return intro + items.map(item => {
+      const metaDate = safe(item.date || item.year || item.period);
+      const metaEvent = item.venue
+        ? safe(item.venue)
+        : item.eventUrl
+          ? link(item.event, item.eventUrl)
+          : safe(item.event || item.institution || item.role);
+      const metaPlace = safe(item.place);
+      const meta = [metaDate, metaEvent, metaPlace].filter(Boolean).join(" · ");
       const title = item.url ? link(item.title, item.url) : safe(item.title);
       const detail = [item.authors].filter(Boolean).join(" · ");
-      return `<article class="entry"><div class="entry-meta">${safe(meta)}</div><h4>${title}</h4>${detail ? `<p>${safe(detail)}</p>` : ""}${item.materials ? link("Course materials", item.materials, "text-link") : ""}</article>`;
+      return `<article class="entry"><div class="entry-meta">${meta}</div><h4>${title}</h4>${detail ? `<p>${safe(detail)}</p>` : ""}${item.materials ? link("Course materials", item.materials, "text-link") : ""}</article>`;
     }).join("");
   };
   $("name").textContent = d.name || "Nirvana Coppola";
@@ -24,7 +32,7 @@
   $("research-topics").innerHTML = (d.topics || []).map(t => `<span class="topic">${safe(t)}</span>`).join("");
   $("publications-list").innerHTML = renderEntries(d.publications);
   $("preprints-list").innerHTML = renderEntries(d.preprints);
-  $("talks-list").innerHTML = renderEntries(d.talks);
+  $("talks-list").innerHTML = renderEntries(d.talks, d.talksNote);
   $("events-list").innerHTML = renderEntries(d.events);
   $("teaching-summary").textContent = d.teachingSummary || "";
   $("teaching-list").innerHTML = renderEntries(d.teaching);
