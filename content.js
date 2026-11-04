@@ -32,17 +32,18 @@ window.SITE_CONTENT = {
     { year: "2026", title: "On the local-global principle for twists of abelian varieties", authors: "with Lorenzo La Porta and Matteo Longo", venue: "arXiv:2602.17299 · submitted", url: "https://arxiv.org/abs/2602.17299" },
     { year: "2019", title: "Markov's Theorem", authors: "with Matteo Barucco", venue: "arXiv:1911.03745", url: "https://arxiv.org/abs/1911.03745" }
   ],
+  talksNote: "Slides are not publicly available, but you are welcome to get in touch if you would like a copy.",
   talks: [
-    { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "Women in Number Theory and Geometry Spring Retreat", place: "Cheltenham · keynote talk" },
-    { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "Talks in Number Theory", place: "Università della Calabria · invited talk" },
-    { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "CAVARET 2", place: "Universitat de Barcelona · poster" },
-    { date: "2026", title: "Formalizing local-to-global results in Lean", event: "Women in Numbers 7", place: "BIRS · project co-leader" },
+    { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "Women in Number Theory and Geometry Spring Retreat", eventUrl: "https://wings2026.github.io/", place: "Cheltenham · keynote talk" },
+    { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "Talks in Number Theory II", eventUrl: "https://sites.google.com/unical.it/tint2/schedule", place: "Università della Calabria · invited talk" },
+    { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "CAVARET 2", eventUrl: "https://emiliano-ambrosi.perso.math.cnrs.fr/Cavaret2page/Cavaret2main.html", place: "Universitat de Barcelona · poster" },
+    { date: "2026", title: "Formalizing local-to-global results in Lean", event: "Women in Numbers 7", eventUrl: "https://womeninnumbertheory.org/future-conferences/win7-2026/", place: "BIRS · project co-leader" },
     { date: "2026", title: "Proof assistant nell'era dell'IA: come l'apprendimento automatico sta cambiando il modo di fare dimostrazioni", event: "Seminario MIA", place: "Università del Salento · online" },
-    { date: "2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Algebraic and geometric methods for Diophantine problems", place: "Scuola Normale Superiore · invited talk" },
+    { date: "2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Algebraic and geometric methods for Diophantine problems", eventUrl: "https://ricerca.mat.uniroma3.it/users/aturchet/Pisa25/index.html", place: "Scuola Normale Superiore · invited talk" },
     { date: "2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Spring of Rational Points II", place: "University of Bath · invited talk" },
-    { date: "2025", title: "Formalisation of mathematics and number theory in Lean", event: "Research Seminar on Formal Mathematics", place: "Heidelberg University" },
-    { date: "2024", title: "Arithmetic of Ciani curves", event: "EThéN — School in Number Theory", place: "CIRM · contributed talk" },
-    { date: "2024", title: "Formalization of class number computations and Mordell equations", event: "Lean Together", place: "Online · invited talk" }
+    { date: "2025", title: "Formalisation of mathematics and number theory in Lean", event: "Research Seminar on Formal Mathematics", eventUrl: "https://matematiflo.github.io/FormalMathSeminar/WS2024.html", place: "Heidelberg University" },
+    { date: "2024", title: "Arithmetic of Ciani curves", event: "EThéN — School in Number Theory", eventUrl: "https://conferences.cirm-math.fr/3322.html", place: "CIRM · contributed talk" },
+    { date: "2024", title: "Formalization of class number computations and Mordell equations", url: "https://www.youtube.com/watch?v=TJ6Qh8EHM5A", event: "Lean Together", eventUrl: "https://leanprover-community.github.io/lt2024/schedule.html", place: "Online · invited talk" }
   ],
   events: [
     { date: "2024", title: "Materie STEM: prospettive di genere", event: "Organiser", place: "Maglie, Italy" },
