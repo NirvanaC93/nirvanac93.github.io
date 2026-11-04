@@ -60,8 +60,8 @@ window.SITE_CONTENT = {
     { period: "2022–2023", title: "Introduzione alla teoria dei numeri", institution: "University of Salento · 10 hours" },
     { period: "2021–2022", title: "Linear Algebra", institution: "Amsterdam University College" },
     { period: "2021–2022", title: "Master Seminar of Algebra and Geometry", institution: "Vrije Universiteit Amsterdam · with Rob de Jeu" },
-    { period: "Mar 2023 – Mar 2024", title: "Mathematics Tutor", institution: "LGEducation srl" },
-    { period: "Apr 2023 – Dec 2023", title: "Physics Teacher", institution: "AFORISMA School of Future" }
+    { period: "2023–2024", title: "Mathematics Tutor", institution: "LGEducation srl" },
+    { period: "2023", title: "Physics Teacher", institution: "AFORISMA School of Future" }
   ],
   about: "I am a postdoctoral researcher at the University of Padova. I received my PhD in Mathematics from the University of Bristol in 2021, after studying at the University of Pisa and the Scuola Normale Superiore. Before joining Padova, I held postdoctoral positions at Vrije Universiteit Amsterdam and the University of Strasbourg. Alongside my research in number theory and arithmetic geometry, I contribute to the formalisation of mathematics in Lean.",
 };
