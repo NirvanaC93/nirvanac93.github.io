@@ -38,7 +38,7 @@ window.SITE_CONTENT = {
     { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "Talks in Number Theory II", eventUrl: "https://sites.google.com/unical.it/tint2/schedule", place: "Università della Calabria · invited talk" },
     { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "CAVARET 2", eventUrl: "https://emiliano-ambrosi.perso.math.cnrs.fr/Cavaret2page/Cavaret2main.html", place: "Universitat de Barcelona · poster" },
     { date: "2026", title: "Formalizing local-to-global results in Lean", event: "Women in Numbers 7", eventUrl: "https://womeninnumbertheory.org/future-conferences/win7-2026/", place: "BIRS · project co-leader" },
-    { date: "2026", title: "Proof assistant nell'era dell'IA: come l'apprendimento automatico sta cambiando il modo di fare dimostrazioni", event: "Seminario MIA", place: "Università del Salento · online" },
+    { date: "2026", title: "Proof assistant nell'era dell'IA: come l'apprendimento automatico sta cambiando il modo di fare dimostrazioni", event: "Seminario MIA", eventUrl: "https://www.matfis.unisalento.it/-/matematica-per-l-intelligenza-artificiale-seminario-della-prof-ssa-nirvana-coppola", place: "Università del Salento · online" },
     { date: "2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Algebraic and geometric methods for Diophantine problems", eventUrl: "https://ricerca.mat.uniroma3.it/users/aturchet/Pisa25/index.html", place: "Scuola Normale Superiore · invited talk" },
     { date: "2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Spring of Rational Points II", place: "University of Bath · invited talk" },
     { date: "2025", title: "Formalisation of mathematics and number theory in Lean", event: "Research Seminar on Formal Mathematics", eventUrl: "https://matematiflo.github.io/FormalMathSeminar/WS2024.html", place: "Heidelberg University" },
@@ -46,11 +46,11 @@ window.SITE_CONTENT = {
     { date: "2024", title: "Formalization of class number computations and Mordell equations", url: "https://www.youtube.com/watch?v=TJ6Qh8EHM5A", event: "Lean Together", eventUrl: "https://leanprover-community.github.io/lt2024/schedule.html", place: "Online · invited talk" }
   ],
   events: [
-    { date: "2024", title: "Materie STEM: prospettive di genere", event: "Organiser", place: "Maglie, Italy" },
-    { date: "2022", title: "Women in Numbers Europe 4", event: "Local organiser", place: "Utrecht University" },
-    { date: "2021", title: "Young Researchers in Algebraic Number Theory 3", event: "Co-organiser", place: "University of Bristol" },
-    { date: "2021", title: "Young Researchers in Mathematics 10", event: "Co-organiser", place: "University of Bristol" },
-    { date: "2020–2021", title: "Linfoot Number Theory Seminar", event: "Co-organiser", place: "University of Bristol" }
+    { date: "2024", title: "Materie STEM: prospettive di genere", event: "Organiser", eventUrl: "https://www.sns.it/sites/default/files/2025-04/relazione-cug-2024_e_allegati_sito_pdfa.pdf", place: "Maglie, Italy" },
+    { date: "2022", title: "Women in Numbers Europe 4", event: "Local organiser", eventUrl: "https://women-in-numbers-europe-4.sites.uu.nl/", place: "Utrecht University" },
+    { date: "2021", title: "Young Researchers in Algebraic Number Theory 3", event: "Co-organiser", eventUrl: "https://www.bristolmathsresearch.org/meeting/young-researchers-in-algebraic-number-theory-y-rant/", place: "University of Bristol" },
+    { date: "2021", title: "Young Researchers in Mathematics 10", event: "Co-organiser", eventUrl: "https://www.bristolmathsresearch.org/category/events/page/4/", place: "University of Bristol" },
+    { date: "2020–2021", title: "Linfoot Number Theory Seminar", event: "Co-organiser", eventUrl: "https://www.bristolmathsresearch.org/events/linfoot-number-theory/", place: "University of Bristol" }
   ],
   teachingSummary: "I have taught mathematics at undergraduate and master’s level in Italy and the Netherlands, and contributed to research-school teaching.",
   teaching: [
