@@ -48,9 +48,9 @@ window.SITE_CONTENT = {
   events: [
     { date: "2024", title: "Materie STEM: prospettive di genere", event: "Organiser", eventUrl: "https://www.sns.it/it/evento/materie-stem-prospettive-di-genere", place: "Maglie, Italy" },
     { date: "2022", title: "Women in Numbers Europe 4", event: "Local organiser", eventUrl: "https://women-in-numbers-europe-4.sites.uu.nl/", place: "Utrecht University" },
-    { date: "2021", title: "Young Researchers in Algebraic Number Theory 3", event: "Co-organiser", eventUrl: "https://www.bristolmathsresearch.org/meeting/young-researchers-in-algebraic-number-theory-y-rant/", place: "University of Bristol" },
-    { date: "2021", title: "Young Researchers in Mathematics 10", event: "Co-organiser", eventUrl: "https://www.bristolmathsresearch.org/category/events/page/4/", place: "University of Bristol" },
-    { date: "2020–2021", title: "Linfoot Number Theory Seminar", event: "Co-organiser", eventUrl: "https://www.bristolmathsresearch.org/events/linfoot-number-theory/", place: "University of Bristol" }
+    { date: "2021", title: "Young Researchers in Algebraic Number Theory 3", event: "Co-organiser", place: "University of Bristol" },
+    { date: "2021", title: "Young Researchers in Mathematics 10", event: "Co-organiser", place: "University of Bristol" },
+    { date: "2020–2021", title: "Linfoot Number Theory Seminar", event: "Co-organiser", place: "University of Bristol" }
   ],
   teachingSummary: "I have taught mathematics at undergraduate and master’s level in Italy and the Netherlands, and contributed to research-school teaching.",
   teaching: [
