@@ -11,9 +11,9 @@ window.SITE_CONTENT = {
   topics: ["Number Theory", "Arithmetic Geometry", "Formalisation in Lean"],
   links: {
     email: "nirvanac93@gmail.com",
-    orcid: "",
+    orcid: "https://orcid.org/0000-0002-8313-5984",
     github: "https://github.com/NirvanaC93",
-    researchgate: ""
+    researchgate: "https://www.researchgate.net/profile/Nirvana_Coppola"
   },
   publications: [
     { year: "2026", title: "Wild Galois representations: elliptic curves with wild cyclic reduction", authors: "", venue: "Research in Number Theory", url: "https://doi.org/10.1007/s40993-026-00730-5" },
