@@ -6,7 +6,6 @@ window.SITE_CONTENT = {
   name: "Nirvana Coppola",
   position: "Postdoctoral Researcher · University of Padova",
   intro: "I am a mathematician working in number theory and arithmetic geometry, with an interest in the formalisation of mathematics using Lean.",
-  personalNote: "Mathematics, teaching, and the occasional note from everyday life.",
   researchSummary: "My research lies at the intersection of number theory and arithmetic geometry. I work on arithmetic aspects of algebraic curves and abelian varieties, including Galois representations, reduction types, conductors and local-global principles. I am also interested in the formalisation of mathematics in Lean, particularly in number theory.",
   topics: ["Number Theory", "Arithmetic Geometry", "Formalisation in Lean"],
   links: {
