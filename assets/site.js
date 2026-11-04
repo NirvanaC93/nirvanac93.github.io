@@ -31,14 +31,9 @@
   $("about-text").textContent = d.about || "";
   $("year").textContent = new Date().getFullYear();
   const labels = { orcid: "ORCID", github: "GitHub", researchgate: "ResearchGate", linkedin: "LinkedIn" };
-  $("quick-links").innerHTML = ["orcid", "github"].map(k => link(labels[k], d.links?.[k])).filter(Boolean).join("");
-  $("profile-links").innerHTML = Object.entries(labels).map(([k, label]) => link(label, d.links?.[k])).filter(Boolean).join("");
-  if (d.links?.orcid) {
-    $("orcid-link").href = d.links.orcid;
-  } else {
-    $("orcid-note").hidden = true;
-  }
-  $("email-line").innerHTML = d.links?.email ? `Contact: <a href="mailto:${safe(d.links.email)}">${safe(d.links.email)}</a>` : "";
+  const profileLinks = Object.entries(labels).map(([k, label]) => link(label, d.links?.[k]));
+  if (d.links?.email) profileLinks.unshift(`<a href="mailto:${safe(d.links.email)}">Email ↗</a>`);
+  $("profile-links").innerHTML = profileLinks.filter(Boolean).join("");
   const toggle = document.querySelector(".menu-toggle"), nav = $("site-nav");
   toggle?.addEventListener("click", () => {
     const open = toggle.getAttribute("aria-expanded") === "true";
