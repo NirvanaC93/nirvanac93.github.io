@@ -20,7 +20,6 @@
   document.title = `${d.name || "Nirvana Coppola"} — Mathematics`;
   $("position").textContent = d.position || "";
   $("intro").textContent = d.intro || "";
-  $("personal-note").textContent = d.personalNote || "";
   $("research-summary").textContent = d.researchSummary || "";
   $("research-topics").innerHTML = (d.topics || []).map(t => `<span class="topic">${safe(t)}</span>`).join("");
   $("publications-list").innerHTML = renderEntries(d.publications);
