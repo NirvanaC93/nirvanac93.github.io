@@ -5,11 +5,11 @@
 */
 window.SITE_CONTENT = {
   name: "Nirvana Coppola",
-  position: "Mathematics · Research & teaching",
-  intro: "I am a mathematician working in geometry, with interests in arithmetic and related areas.",
+  position: "Number Theory · Arithmetic Geometry · Formalisation in Lean",
+  intro: "I am a mathematician working in number theory and arithmetic geometry, with an interest in the formalisation of mathematics using Lean.",
   personalNote: "Mathematics, teaching, and the occasional note from everyday life.",
-  researchSummary: "My research interests lie in geometry and number theory. This section can be expanded with a short description of current questions, collaborators, and projects.",
-  topics: ["Geometry", "Number theory", "Arithmetic geometry"],
+  researchSummary: "My research interests lie in Number Theory and Arithmetic Geometry, alongside the formalisation of mathematics using Lean.",
+  topics: ["Number Theory", "Arithmetic Geometry", "Formalisation in Lean"],
   links: { email: "", orcid: "", cv: "", github: "https://github.com/NirvanaC93", researchgate: "", cienciavitae: "" },
   publications: [
     // { year: "2025", title: "Paper title", authors: "Author names", venue: "Journal / preprint", url: "https://..." }
