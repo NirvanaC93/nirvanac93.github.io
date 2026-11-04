@@ -31,7 +31,7 @@
   $("teaching-list").innerHTML = renderEntries(d.teaching);
   $("about-text").textContent = d.about || "";
   $("year").textContent = new Date().getFullYear();
-  const labels = { orcid: "ORCID", github: "GitHub", researchgate: "ResearchGate" };
+  const labels = { orcid: "ORCID", github: "GitHub", researchgate: "ResearchGate", linkedin: "LinkedIn" };
   $("quick-links").innerHTML = ["orcid", "github"].map(k => link(labels[k], d.links?.[k])).filter(Boolean).join("");
   $("profile-links").innerHTML = Object.entries(labels).map(([k, label]) => link(label, d.links?.[k])).filter(Boolean).join("");
   if (d.links?.orcid) {

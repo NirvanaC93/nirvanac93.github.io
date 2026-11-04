@@ -6,14 +6,14 @@ window.SITE_CONTENT = {
   name: "Nirvana Coppola",
   position: "Postdoctoral Researcher · University of Padova",
   intro: "I am a mathematician working in number theory and arithmetic geometry, with an interest in the formalisation of mathematics using Lean.",
-  personalNote: "Mathematics, teaching, and the occasional note from everyday life.",
   researchSummary: "My research lies at the intersection of number theory and arithmetic geometry. I work on arithmetic aspects of algebraic curves and abelian varieties, including Galois representations, reduction types, conductors and local-global principles. I am also interested in the formalisation of mathematics in Lean, particularly in number theory.",
   topics: ["Number Theory", "Arithmetic Geometry", "Formalisation in Lean"],
   links: {
     email: "nirvanac93@gmail.com",
     orcid: "https://orcid.org/0000-0002-8313-5984",
     github: "https://github.com/NirvanaC93",
-    researchgate: "https://www.researchgate.net/profile/Nirvana_Coppola"
+    researchgate: "https://www.researchgate.net/profile/Nirvana_Coppola",
+    linkedin: "https://www.linkedin.com/in/nirvana-coppola-8bab94340/"
   },
   publications: [
     { year: "2026", title: "Wild Galois representations: elliptic curves with wild cyclic reduction", authors: "", venue: "Research in Number Theory", url: "https://doi.org/10.1007/s40993-026-00730-5" },
@@ -51,7 +51,7 @@ window.SITE_CONTENT = {
     { date: "2021", title: "Young Researchers in Mathematics 10", event: "Co-organiser", place: "University of Bristol" },
     { date: "2020–2021", title: "Linfoot Number Theory Seminar", event: "Co-organiser", place: "University of Bristol" }
   ],
-  teachingSummary: "I have taught mathematics at undergraduate level in Italy and the Netherlands, and contributed to graduate training and research-school teaching.",
+  teachingSummary: "I have taught mathematics at undergraduate and master’s level in Italy and the Netherlands, and contributed to research-school teaching.",
   teaching: [
     { period: "2025–2026", title: "Matematica", institution: "University of Padova · Department of Pharmaceutical Sciences" },
     { period: "2024–2025", title: "Algebra lineare e geometria", institution: "University of Padova · Department of Information Engineering" },
@@ -59,7 +59,9 @@ window.SITE_CONTENT = {
     { period: "2023–2024", title: "Laboratorio di formalizzazione di dimostrazioni matematiche tramite il software Lean", institution: "University of Pisa · 4 hours" },
     { period: "2022–2023", title: "Introduzione alla teoria dei numeri", institution: "University of Salento · 10 hours" },
     { period: "2021–2022", title: "Linear Algebra", institution: "Amsterdam University College" },
-    { period: "2021–2022", title: "Master Seminar of Algebra and Geometry", institution: "Vrije Universiteit Amsterdam · with Rob de Jeu" }
+    { period: "2021–2022", title: "Master Seminar of Algebra and Geometry", institution: "Vrije Universiteit Amsterdam · with Rob de Jeu" },
+    { period: "Mar 2023 – Mar 2024", title: "Mathematics Tutor", institution: "LGEducation srl" },
+    { period: "Apr 2023 – Dec 2023", title: "Physics Teacher", institution: "AFORISMA School of Future" }
   ],
   about: "I am a postdoctoral researcher at the University of Padova. I received my PhD in Mathematics from the University of Bristol in 2021, after studying at the University of Pisa and the Scuola Normale Superiore. Before joining Padova, I held postdoctoral positions at Vrije Universiteit Amsterdam and the University of Strasbourg. Alongside my research in number theory and arithmetic geometry, I contribute to the formalisation of mathematics in Lean.",
 };
