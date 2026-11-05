@@ -8,6 +8,9 @@ window.SITE_CONTENT = {
   intro: "I am a mathematician working in number theory and arithmetic geometry, with an interest in the formalisation of mathematics using Lean.",
   researchSummary: "My research lies at the intersection of number theory and arithmetic geometry. I work on arithmetic aspects of algebraic curves and abelian varieties, including Galois representations, reduction types, conductors and local-global principles. I am also interested in the formalisation of mathematics in Lean, particularly in number theory.",
   topics: ["Number Theory", "Arithmetic Geometry", "Formalisation in Lean"],
+  researchProjects: [
+    { date: "14–19 June 2026", title: "Formalizing local-to-global results in Lean", url: "https://mariainesdff.github.io/HassePrinciple/", event: "Women in Numbers 7", eventUrl: "https://womeninnumbertheory.org/future-conferences/win7-2026/", place: "BIRS, Banff · workshop participant", authors: "Co-leader of an ongoing collaborative project developed during the workshop." }
+  ],
   links: {
     email: "nirvanac93@gmail.com",
     orcid: "https://orcid.org/0000-0002-8313-5984",
@@ -34,16 +37,18 @@ window.SITE_CONTENT = {
   ],
   talksNote: "Slides are not publicly available, but you are welcome to get in touch if you would like a copy.",
   talks: [
-    { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "CAVARET 2", eventUrl: "https://emiliano-ambrosi.perso.math.cnrs.fr/Cavaret2page/Cavaret2main.html", place: "Universitat de Barcelona · poster" },
-    { date: "2026", title: "Formalizing local-to-global results in Lean", url: "https://mariainesdff.github.io/HassePrinciple/", event: "Women in Numbers 7", eventUrl: "https://womeninnumbertheory.org/future-conferences/win7-2026/", place: "BIRS · project co-leader" },
-    { date: "2026", title: "Proof assistant nell'era dell'IA: come l'apprendimento automatico sta cambiando il modo di fare dimostrazioni", event: "Seminario MIA", eventUrl: "https://www.matfis.unisalento.it/-/matematica-per-l-intelligenza-artificiale-seminario-della-prof-ssa-nirvana-coppola", place: "Università del Salento · online" },
-    { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "Women in Number Theory and Geometry Spring Retreat", eventUrl: "https://wings2026.github.io/", place: "Cheltenham · keynote talk" },
-    { date: "2026", title: "Torsion points on GL₂-type abelian varieties", event: "Talks in Number Theory II", eventUrl: "https://sites.google.com/unical.it/tint2/schedule", place: "Università della Calabria · invited talk" },
-    { date: "2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Algebraic and geometric methods for Diophantine problems", eventUrl: "https://ricerca.mat.uniroma3.it/users/aturchet/Pisa25/index.html", place: "Scuola Normale Superiore · invited talk" },
-    { date: "2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Spring of Rational Points II", place: "University of Bath · invited talk" },
-    { date: "2025", title: "Formalisation of mathematics and number theory in Lean", event: "Research Seminar on Formal Mathematics", eventUrl: "https://matematiflo.github.io/FormalMathSeminar/WS2024.html", place: "Heidelberg University" },
-    { date: "2024", title: "Arithmetic of Ciani curves", event: "EThéN — School in Number Theory", eventUrl: "https://conferences.cirm-math.fr/3322.html", place: "CIRM · contributed talk" },
-    { date: "2024", title: "Formalization of class number computations and Mordell equations", url: "https://www.youtube.com/watch?v=TJ6Qh8EHM5A", event: "Lean Together", eventUrl: "https://leanprover-community.github.io/lt2024/schedule.html", place: "Online · invited talk" }
+    { date: "7 November 2026", title: "Curve ellittiche: dalla geometria alla ricerca contemporanea", event: "Aretè", eventUrl: "https://www.instagram.com/p/DfNulBQEZuP/?img_index=1", place: "Online" },
+    { date: "7 September 2026", title: "The formalization of the Hasse-Minkowski Theorem: an ongoing WIN project", event: "INdAM Meeting: Lean for the Curious Mathematician", eventUrl: "https://amosturchet.github.io/lftcm26/index.html", place: "Palazzone di Cortona · research talk" },
+    { date: "15 July 2026", title: "Torsion points on GL₂-type abelian varieties", event: "CAVARET 2", eventUrl: "https://emiliano-ambrosi.perso.math.cnrs.fr/Cavaret2page/Cavaret2main.html", place: "Universitat de Barcelona · poster" },
+    { date: "22 April 2026", title: "Proof assistant nell'era dell'IA: come l'apprendimento automatico sta cambiando il modo di fare dimostrazioni", event: "Seminario MIA", eventUrl: "https://www.matfis.unisalento.it/-/matematica-per-l-intelligenza-artificiale-seminario-della-prof-ssa-nirvana-coppola", place: "Università del Salento · online" },
+    { date: "13 April 2026", title: "Torsion points on GL₂-type abelian varieties", event: "Women in Number Theory and Geometry Spring Retreat", eventUrl: "https://wings2026.github.io/", place: "Cheltenham · keynote talk" },
+    { date: "14 March 2026", title: "Proof assistant e fondamenti: la matematica nell'era digitale", url: "https://www.youtube.com/watch?v=UhHmN4WEPPU&t=5s", event: "Aretè", eventUrl: "https://www.youtube.com/@ARET%C3%88-MathInTheRealWorld", place: "Online" },
+    { date: "26 February 2026", title: "Torsion points on GL₂-type abelian varieties", event: "Talks in Number Theory II", eventUrl: "https://sites.google.com/unical.it/tint2/schedule", place: "Università della Calabria · invited talk" },
+    { date: "11 September 2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Algebraic and geometric methods for Diophantine problems", eventUrl: "https://ricerca.mat.uniroma3.it/users/aturchet/Pisa25/index.html", place: "Scuola Normale Superiore · invited talk" },
+    { date: "13 May 2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Spring of Rational Points II", place: "University of Bath · invited talk" },
+    { date: "21 January 2025", title: "Formalisation of mathematics and number theory in Lean", event: "Research Seminar on Formal Mathematics", eventUrl: "https://matematiflo.github.io/FormalMathSeminar/WS2024.html", place: "Heidelberg University" },
+    { date: "24 September 2024", title: "Arithmetic of Ciani curves", event: "EThéN — School in Number Theory", eventUrl: "https://conferences.cirm-math.fr/3322.html", place: "CIRM · contributed talk" },
+    { date: "9 January 2024", title: "Formalization of class number computations and Mordell equations", url: "https://www.youtube.com/watch?v=TJ6Qh8EHM5A", event: "Lean Together", eventUrl: "https://leanprover-community.github.io/lt2024/schedule.html", place: "Online · invited talk" }
   ],
   events: [
     { date: "2024", title: "Materie STEM: prospettive di genere", event: "Organiser", eventUrl: "https://www.sns.it/it/evento/materie-stem-prospettive-di-genere", place: "Maglie, Italy" },
