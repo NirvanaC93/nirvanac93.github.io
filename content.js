@@ -34,8 +34,8 @@ window.SITE_CONTENT = {
   ],
   talksNote: "Slides are not publicly available, but you are welcome to get in touch if you would like a copy.",
   talks: [
-    { date: "7 September 2026", title: "The formalization of the Hasse-Minkowski Theorem: an ongoing WIN project", event: "INdAM Meeting: Lean for the Curious Mathematician", eventUrl: "https://amosturchet.github.io/lftcm26/index.html", place: "Palazzone di Cortona · research talk" },
     { date: "7 November 2026", title: "Curve ellittiche: dalla geometria alla ricerca contemporanea", event: "Aretè", eventUrl: "https://www.instagram.com/p/DfNulBQEZuP/?img_index=1", place: "Online" },
+    { date: "7 September 2026", title: "The formalization of the Hasse-Minkowski Theorem: an ongoing WIN project", event: "INdAM Meeting: Lean for the Curious Mathematician", eventUrl: "https://amosturchet.github.io/lftcm26/index.html", place: "Palazzone di Cortona · research talk" },
     { date: "15 July 2026", title: "Torsion points on GL₂-type abelian varieties", event: "CAVARET 2", eventUrl: "https://emiliano-ambrosi.perso.math.cnrs.fr/Cavaret2page/Cavaret2main.html", place: "Universitat de Barcelona · poster" },
     { date: "22 April 2026", title: "Proof assistant nell'era dell'IA: come l'apprendimento automatico sta cambiando il modo di fare dimostrazioni", event: "Seminario MIA", eventUrl: "https://www.matfis.unisalento.it/-/matematica-per-l-intelligenza-artificiale-seminario-della-prof-ssa-nirvana-coppola", place: "Università del Salento · online" },
     { date: "13 April 2026", title: "Torsion points on GL₂-type abelian varieties", event: "Women in Number Theory and Geometry Spring Retreat", eventUrl: "https://wings2026.github.io/", place: "Cheltenham · keynote talk" },
