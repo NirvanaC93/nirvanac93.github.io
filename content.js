@@ -8,6 +8,9 @@ window.SITE_CONTENT = {
   intro: "I am a mathematician working in number theory and arithmetic geometry, with an interest in the formalisation of mathematics using Lean.",
   researchSummary: "My research lies at the intersection of number theory and arithmetic geometry. I work on arithmetic aspects of algebraic curves and abelian varieties, including Galois representations, reduction types, conductors and local-global principles. I am also interested in the formalisation of mathematics in Lean, particularly in number theory.",
   topics: ["Number Theory", "Arithmetic Geometry", "Formalisation in Lean"],
+  researchProjects: [
+    { date: "14–19 June 2026", title: "Formalizing local-to-global results in Lean", url: "https://mariainesdff.github.io/HassePrinciple/", event: "Women in Numbers 7", eventUrl: "https://womeninnumbertheory.org/future-conferences/win7-2026/", place: "BIRS, Banff · workshop participant", authors: "Co-leader of an ongoing collaborative project developed during the workshop." }
+  ],
   links: {
     email: "nirvanac93@gmail.com",
     orcid: "https://orcid.org/0000-0002-8313-5984",
