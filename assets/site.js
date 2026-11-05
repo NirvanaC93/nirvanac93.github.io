@@ -37,6 +37,7 @@
   $("intro").textContent = d.intro || "";
   $("research-summary").textContent = d.researchSummary || "";
   $("research-topics").innerHTML = (d.topics || []).map(t => `<span class="topic">${escapeHtml(t)}</span>`).join("");
+  $("research-projects-list").innerHTML = renderEntries(d.researchProjects);
   $("publications-list").innerHTML = renderEntries(d.publications);
   $("preprints-list").innerHTML = renderEntries(d.preprints);
   $("talks-list").innerHTML = renderEntries(d.talks, d.talksNote);
