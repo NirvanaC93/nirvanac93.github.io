@@ -28,7 +28,7 @@
       const meta = [metaDate, metaEvent, metaPlace].filter(Boolean).join(" · ");
       const title = item.url ? link(item.title, item.url) : escapeHtml(item.title);
       const detail = escapeHtml(item.authors);
-      return `<article class="entry"><div class="entry-meta">${meta}</div><h4>${title}</h4>${detail ? `<p>${detail}</p>` : ""}${item.materials ? link("Course materials", item.materials, "text-link") : ""}</article>`;
+      return `<article class="entry"><div class="entry-meta">${meta}</div><h4>${title}</h4>${detail ? `<p>${detail}</p>` : ""}${item.materials ? link("Course materials", item.materials, "text-link") : ""}${item.slidesUrl ? link("Slides", item.slidesUrl, "text-link") : ""}${item.videoUrl ? link("Watch recording", item.videoUrl, "text-link") : ""}</article>`;
     }).join("");
   };
   $("name").textContent = d.name || "Nirvana Coppola";

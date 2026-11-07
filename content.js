@@ -35,14 +35,14 @@ window.SITE_CONTENT = {
     { year: "2026", title: "On the local-global principle for twists of abelian varieties", authors: "with Lorenzo La Porta and Matteo Longo", venue: "arXiv:2602.17299 · submitted", url: "https://arxiv.org/abs/2602.17299" },
     { year: "2019", title: "Markov's Theorem", authors: "with Matteo Barucco", venue: "arXiv:1911.03745", url: "https://arxiv.org/abs/1911.03745" }
   ],
-  talksNote: "Slides are not publicly available, but you are welcome to get in touch if you would like a copy.",
+  talksNote: "Slides are linked where publicly available; for other talks, you are welcome to get in touch if you would like a copy.",
   talks: [
-    { date: "7 November 2026", title: "Curve ellittiche: dalla geometria alla ricerca contemporanea", event: "Aretè", eventUrl: "https://www.instagram.com/p/DfNulBQEZuP/?img_index=1", place: "Online" },
+    { date: "7 November 2026", title: "Curve ellittiche: dalla geometria alla ricerca contemporanea", slidesUrl: "https://nirvanac93.github.io/assets/talk_arete.pdf", event: "Aretè", eventUrl: "https://www.youtube.com/@ARET%C3%88-MathInTheRealWorld", place: "Online" },
     { date: "7 September 2026", title: "The formalization of the Hasse-Minkowski Theorem: an ongoing WIN project", event: "INdAM Meeting: Lean for the Curious Mathematician", eventUrl: "https://amosturchet.github.io/lftcm26/index.html", place: "Palazzone di Cortona · research talk" },
     { date: "15 July 2026", title: "Torsion points on GL₂-type abelian varieties", event: "CAVARET 2", eventUrl: "https://emiliano-ambrosi.perso.math.cnrs.fr/Cavaret2page/Cavaret2main.html", place: "Universitat de Barcelona · poster" },
     { date: "22 April 2026", title: "Proof assistant nell'era dell'IA: come l'apprendimento automatico sta cambiando il modo di fare dimostrazioni", event: "Seminario MIA", eventUrl: "https://www.matfis.unisalento.it/-/matematica-per-l-intelligenza-artificiale-seminario-della-prof-ssa-nirvana-coppola", place: "Università del Salento · online" },
     { date: "13 April 2026", title: "Torsion points on GL₂-type abelian varieties", event: "Women in Number Theory and Geometry Spring Retreat", eventUrl: "https://wings2026.github.io/", place: "Cheltenham · keynote talk" },
-    { date: "14 March 2026", title: "Proof assistant e fondamenti: la matematica nell'era digitale", url: "https://www.youtube.com/watch?v=UhHmN4WEPPU&t=5s", event: "Aretè", eventUrl: "https://www.youtube.com/@ARET%C3%88-MathInTheRealWorld", place: "Online" },
+    { date: "14 March 2026", title: "Proof assistant e fondamenti: la matematica nell'era digitale", slidesUrl: "https://nirvanac93.github.io/assets/talk_arete_marzo.pdf", videoUrl: "https://www.youtube.com/watch?v=UhHmN4WEPPU&t=5s", event: "Aretè", eventUrl: "https://www.youtube.com/@ARET%C3%88-MathInTheRealWorld", place: "Online" },
     { date: "26 February 2026", title: "Torsion points on GL₂-type abelian varieties", event: "Talks in Number Theory II", eventUrl: "https://sites.google.com/unical.it/tint2/schedule", place: "Università della Calabria · invited talk" },
     { date: "11 September 2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Algebraic and geometric methods for Diophantine problems", eventUrl: "https://ricerca.mat.uniroma3.it/users/aturchet/Pisa25/index.html", place: "Scuola Normale Superiore · invited talk" },
     { date: "13 May 2025", title: "A local-global principle for quadratic twists of abelian varieties", event: "Spring of Rational Points II", place: "University of Bath · invited talk" },
